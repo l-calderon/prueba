@@ -1,0 +1,237 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box ;
+	-moz-box-sizing: border-box ;
+	-ms-box-sizing: border-box ;
+	-o-box-sizing: border-box ;
+	box-sizing: border-box ;
+}
+
+body {
+	font-family: Arial, Sans-serif;
+	font-size: 16px;
+	background: url('../image/doodles.png');
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+header {
+	color: #000;
+	background: #FE7139;
+}
+
+header .padre-header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 20px;
+}
+section.form-background {
+    width: 1000px;
+    display: block;
+    margin: 30px auto;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.mini-padre {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.mini-padre .space-one {
+    width: 40%;
+}
+
+.mini-padre .space-two {
+    width: 60%;
+}
+.logo-zone {
+    width: 25%;
+}
+.text-one {
+    width: 20%;
+}
+.text-area {
+    width: 80%;
+}
+hr {
+    border: 1px solid #fe7139;
+    width: 500px;
+    margin: 0px 0px 20px 0px;
+}
+
+img.logo-size {
+    width: 120px;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+img.libro-size {
+    width: 200px;
+    align-self: center;
+}
+
+.libro-zone {
+    width: 75%;
+}
+
+.libro-zone h5 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.libro-zone p {
+    text-align: center;
+    color: #fff;
+}
+
+.padre-model {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 14px 0px;
+    width: 100%;
+}
+
+.main {
+	width: 100%;
+	background: #fff;
+	float: left;
+}
+
+.main .imagen {
+	width: 100%;
+}
+
+.main .imagen img {
+	width: 100%;
+	vertical-align: top;
+}
+.boton {
+    margin: 10px auto;
+    width: 100%;
+}
+textarea {
+    max-height: 200px;
+    max-width: 800px;
+    height: 120px;
+    border: 1px solid #fe7139;
+    border-radius: 4px;
+    width: 800px;
+    height: 95px;
+    background-color: #ECECEC;
+    padding: 5px;
+}
+input#correo {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #fe7139;
+    border-radius: 4px;
+    padding-left: 10px;    
+    background-color: #ECECEC;
+}
+input[type="submit"] {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background: #44288C;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #fe7139;
+}
+select {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #fe7139;
+    border-radius: 4px;
+    font-weight: 700;    
+    background-color: #ECECEC;
+}
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #fe7139;
+    border-radius: 4px;
+    padding-left: 10px;    
+    background-color: #ECECEC;
+}
+.privacidad p .priv {
+    font-size: 12px;
+    text-align: center;
+}
+footer {
+	width: 100%;
+	overflow: hidden;
+	/*clear: both;*/
+	background: #fe7139;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+}
+h3 {
+    color: #44288c;
+}
+
+/*
+	MEDIA - QUERIES 
+
+@media screen and (max-width:800px) {
+	body {
+	background:#000;
+	}
+}  */
+
+@media screen and (max-width:800px) {
+	.main {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+	}
+
+	footer {
+		width: 100%
+	}
+}
+
+
+/*
+@media screen and (max-width: 1024px) {
+ 
+}
+ 
+@media screen and (max-width: 768px) {
+ 
+}
+ 
+@media screen and (max-width: 480px) {
+ 
+}
+ 
+@media screen and (max-width: 320px) {
+ 
+}
+*/
